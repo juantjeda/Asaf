@@ -17,7 +17,7 @@ public class Asaf {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        System.out.print("Prueba de MAnejo");
+        System.out.print("Segunda prueba de Manejo");
     }
     
 }
