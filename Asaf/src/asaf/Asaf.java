@@ -7,8 +7,10 @@
  */
 package asaf;
 
+import javax.swing.JFrame;
+
 /**
- *
+ * Asaf 2.0 Version mejorada y acepta ingreso de datos.
  * @author JuanJo
  */
 public class Asaf {
@@ -17,9 +19,10 @@ public class Asaf {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
-        System.out.print("Segunda prueba de Manejo");
+        //Busco el menu principal para hacer su despliegue.
+        MenuPrincipal menu = new MenuPrincipal();
+        menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Para que termine todo cuando salga.
+        menu.setVisible(true); // Lo hace visible a la vista humana.
     }
     
 }
