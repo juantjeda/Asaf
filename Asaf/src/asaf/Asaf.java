@@ -23,6 +23,5 @@ public class Asaf {
         MenuPrincipal menu = new MenuPrincipal();
         menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Para que termine todo cuando salga.
         menu.setVisible(true); // Lo hace visible a la vista humana.
-    }
-    
+    }  
 }
