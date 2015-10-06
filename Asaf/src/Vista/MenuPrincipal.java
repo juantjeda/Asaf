@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package asaf;
+package Vista;
 
 /**
  *
@@ -49,7 +49,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jCPanel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Azules.jpeg"))); // NOI18N
+        jCPanel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/imagenes/Azules.jpeg"))); // NOI18N
         jCPanel1.setIconLogo(null);
         jCPanel1.setVisibleLogo(false);
 
@@ -90,7 +90,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jCPanel3.setDegradedOrientation(com.bolivia.panel.DEGRADED_ORIENTATION.VERTICAL);
         jCPanel3.setDegraded_percent(0.9F);
         jCPanel3.setFirstColor(new java.awt.Color(255, 255, 255));
-        jCPanel3.setIconLogo(new javax.swing.ImageIcon(getClass().getResource("/Iconos/gnome_panel_workspace_switcher.png"))); // NOI18N
+        jCPanel3.setIconLogo(new javax.swing.ImageIcon(getClass().getResource("/Vista/Iconos/gnome_panel_workspace_switcher.png"))); // NOI18N
         jCPanel3.setLocationLogo(new java.awt.Point(69, 12));
         jCPanel3.setSecondColor(new java.awt.Color(204, 204, 255));
         jCPanel3.setUseMode(com.bolivia.panel.USEMODE.DEGRADED);
@@ -132,7 +132,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jCPanel4.setDegradedOrientation(com.bolivia.panel.DEGRADED_ORIENTATION.VERTICAL);
         jCPanel4.setDegraded_percent(0.9F);
         jCPanel4.setFirstColor(new java.awt.Color(255, 255, 255));
-        jCPanel4.setIconLogo(new javax.swing.ImageIcon(getClass().getResource("/Iconos/gnome_panel_workspace_switcher.png"))); // NOI18N
+        jCPanel4.setIconLogo(new javax.swing.ImageIcon(getClass().getResource("/Vista/Iconos/gnome_panel_workspace_switcher.png"))); // NOI18N
         jCPanel4.setLocationLogo(new java.awt.Point(69, 12));
         jCPanel4.setSecondColor(new java.awt.Color(204, 204, 255));
         jCPanel4.setUseMode(com.bolivia.panel.USEMODE.DEGRADED);
@@ -174,7 +174,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jCPanel5.setDegradedOrientation(com.bolivia.panel.DEGRADED_ORIENTATION.VERTICAL);
         jCPanel5.setDegraded_percent(0.9F);
         jCPanel5.setFirstColor(new java.awt.Color(255, 255, 255));
-        jCPanel5.setIconLogo(new javax.swing.ImageIcon(getClass().getResource("/Iconos/gnome_panel_workspace_switcher.png"))); // NOI18N
+        jCPanel5.setIconLogo(new javax.swing.ImageIcon(getClass().getResource("/Vista/Iconos/gnome_panel_workspace_switcher.png"))); // NOI18N
         jCPanel5.setLocationLogo(new java.awt.Point(69, 12));
         jCPanel5.setSecondColor(new java.awt.Color(204, 204, 255));
         jCPanel5.setUseMode(com.bolivia.panel.USEMODE.DEGRADED);

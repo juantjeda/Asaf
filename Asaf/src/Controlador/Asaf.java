@@ -5,8 +5,9 @@
  * Para no olvidar la referencias jajaja.
  * http://www.jc-mouse.net/proyectos/gestion-de-stock-la-vista-parte-3
  */
-package asaf;
+package Controlador;
 
+import Vista.MenuPrincipal;
 import javax.swing.JFrame;
 
 /**
@@ -14,10 +15,6 @@ import javax.swing.JFrame;
  * @author JuanJo
  */
 public class Asaf {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         //Busco el menu principal para hacer su despliegue.
         MenuPrincipal menu = new MenuPrincipal();
