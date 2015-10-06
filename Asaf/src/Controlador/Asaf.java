@@ -7,7 +7,7 @@
  */
 package Controlador;
 
-import Vista.MenuPrincipal;
+import Vista.frmMenuPrincipal;
 import javax.swing.JFrame;
 
 /**
@@ -17,7 +17,7 @@ import javax.swing.JFrame;
 public class Asaf {
     public static void main(String[] args) {
         //Busco el menu principal para hacer su despliegue.
-        MenuPrincipal menu = new MenuPrincipal();
+        frmMenuPrincipal menu = new frmMenuPrincipal();
         menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Para que termine todo cuando salga.
         menu.setVisible(true); // Lo hace visible a la vista humana.
     }  
