@@ -34,6 +34,15 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jCPanel4 = new com.bolivia.panel.JCPanel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jCPanel5 = new com.bolivia.panel.JCPanel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         jMenuBar2 = new javax.swing.JMenuBar();
         jMenu3 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
@@ -118,13 +127,105 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 .addContainerGap(84, Short.MAX_VALUE))
         );
 
+        jCPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153)));
+        jCPanel4.setdarker(false);
+        jCPanel4.setDegradedOrientation(com.bolivia.panel.DEGRADED_ORIENTATION.VERTICAL);
+        jCPanel4.setDegraded_percent(0.9F);
+        jCPanel4.setFirstColor(new java.awt.Color(255, 255, 255));
+        jCPanel4.setIconLogo(new javax.swing.ImageIcon(getClass().getResource("/Iconos/gnome_panel_workspace_switcher.png"))); // NOI18N
+        jCPanel4.setLocationLogo(new java.awt.Point(69, 12));
+        jCPanel4.setSecondColor(new java.awt.Color(204, 204, 255));
+        jCPanel4.setUseMode(com.bolivia.panel.USEMODE.DEGRADED);
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 102, 51));
+        jLabel4.setText("MANTENIMIENTO Y SISTEMA");
+
+        jLabel6.setText("Ingreso y  Mantenimiento de Usuarios");
+
+        jLabel7.setText("Copia de Seguridad");
+
+        javax.swing.GroupLayout jCPanel4Layout = new javax.swing.GroupLayout(jCPanel4);
+        jCPanel4.setLayout(jCPanel4Layout);
+        jCPanel4Layout.setHorizontalGroup(
+            jCPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jCPanel4Layout.createSequentialGroup()
+                .addContainerGap(267, Short.MAX_VALUE)
+                .addGroup(jCPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel7)
+                    .addComponent(jLabel6)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+        jCPanel4Layout.setVerticalGroup(
+            jCPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jCPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel4)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel7)
+                .addContainerGap(84, Short.MAX_VALUE))
+        );
+
+        jCPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153)));
+        jCPanel5.setdarker(false);
+        jCPanel5.setDegradedOrientation(com.bolivia.panel.DEGRADED_ORIENTATION.VERTICAL);
+        jCPanel5.setDegraded_percent(0.9F);
+        jCPanel5.setFirstColor(new java.awt.Color(255, 255, 255));
+        jCPanel5.setIconLogo(new javax.swing.ImageIcon(getClass().getResource("/Iconos/gnome_panel_workspace_switcher.png"))); // NOI18N
+        jCPanel5.setLocationLogo(new java.awt.Point(69, 12));
+        jCPanel5.setSecondColor(new java.awt.Color(204, 204, 255));
+        jCPanel5.setUseMode(com.bolivia.panel.USEMODE.DEGRADED);
+
+        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(0, 102, 51));
+        jLabel8.setText("MANTENIMIENTO Y SISTEMA");
+
+        jLabel9.setText("Ingreso y  Mantenimiento de Usuarios");
+
+        jLabel10.setText("Copia de Seguridad");
+
+        javax.swing.GroupLayout jCPanel5Layout = new javax.swing.GroupLayout(jCPanel5);
+        jCPanel5.setLayout(jCPanel5Layout);
+        jCPanel5Layout.setHorizontalGroup(
+            jCPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jCPanel5Layout.createSequentialGroup()
+                .addContainerGap(267, Short.MAX_VALUE)
+                .addGroup(jCPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel10)
+                    .addComponent(jLabel9)
+                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+        jCPanel5Layout.setVerticalGroup(
+            jCPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jCPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel8)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel9)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel10)
+                .addContainerGap(84, Short.MAX_VALUE))
+        );
+
+        jButton1.setText("Salir");
+
         javax.swing.GroupLayout jCPanel2Layout = new javax.swing.GroupLayout(jCPanel2);
         jCPanel2.setLayout(jCPanel2Layout);
         jCPanel2Layout.setHorizontalGroup(
             jCPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jCPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jCPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 559, Short.MAX_VALUE)
+                .addGroup(jCPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jCPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 559, Short.MAX_VALUE)
+                    .addComponent(jCPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 559, Short.MAX_VALUE)
+                    .addComponent(jCPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, 559, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jCPanel2Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jButton1)))
                 .addContainerGap())
         );
         jCPanel2Layout.setVerticalGroup(
@@ -132,7 +233,13 @@ public class MenuPrincipal extends javax.swing.JFrame {
             .addGroup(jCPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jCPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(392, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addContainerGap())
         );
 
         jMenu3.setText("Archivo");
@@ -204,13 +311,22 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
     private com.bolivia.panel.JCPanel jCPanel1;
     private com.bolivia.panel.JCPanel jCPanel2;
     private com.bolivia.panel.JCPanel jCPanel3;
+    private com.bolivia.panel.JCPanel jCPanel4;
+    private com.bolivia.panel.JCPanel jCPanel5;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenuBar jMenuBar2;
