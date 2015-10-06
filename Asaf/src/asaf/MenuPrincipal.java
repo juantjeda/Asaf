@@ -28,43 +28,121 @@ public class MenuPrincipal extends javax.swing.JFrame {
     private void initComponents() {
 
         jCPanel1 = new com.bolivia.panel.JCPanel();
-        jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
-        jMenuItem2 = new javax.swing.JMenuItem();
+        jLabel3 = new javax.swing.JLabel();
+        jCPanel2 = new com.bolivia.panel.JCPanel();
+        jCPanel3 = new com.bolivia.panel.JCPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jMenuBar2 = new javax.swing.JMenuBar();
+        jMenu3 = new javax.swing.JMenu();
+        jMenu4 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jCPanel1.setIcon(null);
+        jCPanel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Azules.jpeg"))); // NOI18N
         jCPanel1.setIconLogo(null);
+        jCPanel1.setVisibleLogo(false);
+
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 102, 51));
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setText("ASAF - Ver. 2.0.0");
 
         javax.swing.GroupLayout jCPanel1Layout = new javax.swing.GroupLayout(jCPanel1);
         jCPanel1.setLayout(jCPanel1Layout);
         jCPanel1Layout.setHorizontalGroup(
             jCPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 363, Short.MAX_VALUE)
+            .addGroup(jCPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 343, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jCPanel1Layout.setVerticalGroup(
             jCPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 569, Short.MAX_VALUE)
+            .addGroup(jCPanel1Layout.createSequentialGroup()
+                .addGap(24, 24, 24)
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jMenu1.setText("Archivo");
+        jCPanel2.setToolTipText("");
+        jCPanel2.setBiColor_Orientation(com.bolivia.panel.BICOLOR_ORIENTATION.VERTICAL);
+        jCPanel2.setDegradedOrientation(com.bolivia.panel.DEGRADED_ORIENTATION.VERTICAL);
+        jCPanel2.setDegraded_percent(0.6F);
+        jCPanel2.setFocusable(false);
+        jCPanel2.setName(""); // NOI18N
+        jCPanel2.setSecondColor(new java.awt.Color(0, 0, 153));
+        jCPanel2.setUseMode(com.bolivia.panel.USEMODE.DEGRADED);
+        jCPanel2.setVisibleLogo(false);
 
-        jMenuItem1.setText("Sistema y Mantenimiento");
-        jMenu1.add(jMenuItem1);
+        jCPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153)));
+        jCPanel3.setdarker(false);
+        jCPanel3.setDegradedOrientation(com.bolivia.panel.DEGRADED_ORIENTATION.VERTICAL);
+        jCPanel3.setDegraded_percent(0.9F);
+        jCPanel3.setFirstColor(new java.awt.Color(255, 255, 255));
+        jCPanel3.setIconLogo(new javax.swing.ImageIcon(getClass().getResource("/Iconos/gnome_panel_workspace_switcher.png"))); // NOI18N
+        jCPanel3.setLocationLogo(new java.awt.Point(69, 12));
+        jCPanel3.setSecondColor(new java.awt.Color(204, 204, 255));
+        jCPanel3.setUseMode(com.bolivia.panel.USEMODE.DEGRADED);
 
-        jMenuBar1.add(jMenu1);
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 102, 51));
+        jLabel1.setText("MANTENIMIENTO Y SISTEMA");
 
-        jMenu2.setText("Ayuda");
+        jLabel2.setText("Ingreso y  Mantenimiento de Usuarios");
 
-        jMenuItem2.setText("Acerca de...");
-        jMenu2.add(jMenuItem2);
+        jLabel5.setText("Copia de Seguridad");
 
-        jMenuBar1.add(jMenu2);
+        javax.swing.GroupLayout jCPanel3Layout = new javax.swing.GroupLayout(jCPanel3);
+        jCPanel3.setLayout(jCPanel3Layout);
+        jCPanel3Layout.setHorizontalGroup(
+            jCPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jCPanel3Layout.createSequentialGroup()
+                .addContainerGap(267, Short.MAX_VALUE)
+                .addGroup(jCPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel5)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+        jCPanel3Layout.setVerticalGroup(
+            jCPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jCPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel5)
+                .addContainerGap(84, Short.MAX_VALUE))
+        );
 
-        setJMenuBar(jMenuBar1);
+        javax.swing.GroupLayout jCPanel2Layout = new javax.swing.GroupLayout(jCPanel2);
+        jCPanel2.setLayout(jCPanel2Layout);
+        jCPanel2Layout.setHorizontalGroup(
+            jCPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jCPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jCPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 559, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jCPanel2Layout.setVerticalGroup(
+            jCPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jCPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jCPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(392, Short.MAX_VALUE))
+        );
+
+        jMenu3.setText("Archivo");
+        jMenu3.setIconTextGap(5);
+        jMenuBar2.add(jMenu3);
+
+        jMenu4.setText("Ayuda");
+        jMenuBar2.add(jMenu4);
+
+        setJMenuBar(jMenuBar2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -73,13 +151,17 @@ public class MenuPrincipal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jCPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 363, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(533, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jCPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 579, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jCPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 569, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jCPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 569, Short.MAX_VALUE)
+                    .addComponent(jCPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 569, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -123,10 +205,14 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private com.bolivia.panel.JCPanel jCPanel1;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem2;
+    private com.bolivia.panel.JCPanel jCPanel2;
+    private com.bolivia.panel.JCPanel jCPanel3;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenuBar jMenuBar2;
     // End of variables declaration//GEN-END:variables
 }
