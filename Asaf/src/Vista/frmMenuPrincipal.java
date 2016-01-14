@@ -15,6 +15,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
      * Creates new form MenuPrincipal
      */
     public frmMenuPrincipal() {
+        super("Asaf ");
         initComponents();
     }
 
@@ -42,7 +43,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        b_salir = new javax.swing.JButton();
         jMenuBar2 = new javax.swing.JMenuBar();
         jMenu3 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
@@ -211,7 +212,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
                 .addContainerGap(84, Short.MAX_VALUE))
         );
 
-        jButton1.setText("Salir");
+        b_salir.setText("Salir");
 
         javax.swing.GroupLayout jCPanel2Layout = new javax.swing.GroupLayout(jCPanel2);
         jCPanel2.setLayout(jCPanel2Layout);
@@ -225,7 +226,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
                     .addComponent(jCPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, 559, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jCPanel2Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jButton1)))
+                        .addComponent(b_salir)))
                 .addContainerGap())
         );
         jCPanel2Layout.setVerticalGroup(
@@ -238,7 +239,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jCPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(b_salir)
                 .addContainerGap())
         );
 
@@ -289,7 +290,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    public javax.swing.JButton b_salir;
     private com.bolivia.panel.JCPanel jCPanel1;
     private com.bolivia.panel.JCPanel jCPanel2;
     private com.bolivia.panel.JCPanel jCPanel3;

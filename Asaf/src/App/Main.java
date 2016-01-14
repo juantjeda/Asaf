@@ -26,9 +26,6 @@ public class Main {
             UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
             SwingUtilities.updateComponentTreeUI(vista);
             new MenuPrincipal(vista).go();
-        } catch (UnsupportedLookAndFeelException ex) {}
-          catch (ClassNotFoundException ex) {}
-          catch (InstantiationException ex) {}
-          catch (IllegalAccessException ex) {}
+        } catch (UnsupportedLookAndFeelException | ClassNotFoundException | InstantiationException | IllegalAccessException ex) {}
     } 
 }
