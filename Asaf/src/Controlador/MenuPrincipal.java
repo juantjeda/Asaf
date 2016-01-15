@@ -31,11 +31,15 @@ public class MenuPrincipal implements ActionListener{
     public void go(){
         this.view.setVisible(true);
     }
-    @Override
-    public void actionPerformed(ActionEvent e){
+    public void b_salirActionPerformed(java.awt.event.ActionEvent e){
         if(view.b_salir == e.getSource()){
             System.out.print(e.getSource());
             this.view.dispose();
         }
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
