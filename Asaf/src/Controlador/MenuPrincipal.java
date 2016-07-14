@@ -19,8 +19,6 @@ public class MenuPrincipal implements ActionListener{
     
     public MenuPrincipal(frmMenuPrincipal vista){
         this.view = vista;
-        
-        this.view.b_salir.addActionListener((ActionListener)this);
         iniciar();
     }
     /*INICIA*/
@@ -30,12 +28,6 @@ public class MenuPrincipal implements ActionListener{
     }
     public void go(){
         this.view.setVisible(true);
-    }
-    public void b_salirActionPerformed(java.awt.event.ActionEvent e){
-        if(view.b_salir == e.getSource()){
-            System.out.print(e.getSource());
-            this.view.dispose();
-        }
     }
 
     @Override
