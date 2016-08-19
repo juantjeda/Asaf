@@ -19,5 +19,5 @@ public class ge_man_emp implements ActionListener {
     public ge_man_emp(frmge_empresa vista){
       this.view = vista;  
     }
-    
+    /*esoto funciona
 }
