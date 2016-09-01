@@ -19,14 +19,14 @@ public class ge_man_emp implements ActionListener{
     
     public ge_man_emp(frmge_empresa vista){
         this.view = vista;
-        iniciar();
+        iniciaremp();
     }
     /*INICIA*/
-    private void iniciar(){
-        this.view.setTitle("Asaf");
-        this.view.setLocationRelativeTo(null);
+    private void iniciaremp(){
+        this.view.setTitle("Empresaf");
+        this.view.setLocation(10, 15);
     }
-    public void go(){
+    public void goemp(){
         this.view.setVisible(true);
     }
 
